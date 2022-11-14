@@ -3,13 +3,13 @@ marquee h1{
 }
 
 .login{
-    background-color: silver;
-    color: blueviolet;
+    background-color: gray;
+    color: black;
     width: 300px;
     position: absolute;
-    left: 30px;
+    left: 60px;
     height: 350px;
-    bottom: 20px;
+    bottom: 80px;
 }
 
 .login{
@@ -30,7 +30,7 @@ marquee h1{
     left: 30px;
 }
 
-button{
+.gin a{
     background-color: steelblue;
     position: absolute;
     left: 100px;
@@ -38,16 +38,27 @@ button{
     height: 30px;
     border: 2px steelblue;
     bottom: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 5px;
 }
 
+a:hover{
+    color: red;
+}
 
 .register{
     width: 300px;
     height: 350px;
     position: absolute;
-    background-color: burlywood;
-    right: 30px;
-    bottom: 20px;
+    background-color: gray;
+    color: black;
+    right: 60px;
+    bottom: 80px;
+}
+
+.register{
+    text-align: center;
 }
 
 .register h4{
@@ -56,10 +67,12 @@ button{
 }
 
 .general{
-    background-color: khaki;
+    background-color: whitesmoke;
     box-shadow: 0px 8px 16px burlywood;
-    height: 400px;
-    width: 700px;
+    height: 500px;
+    width: 800px;
     position: absolute;
-    left: 350px;
+    left: 300px;
+    top: 80px;
+    border-radius: 20px;
 }

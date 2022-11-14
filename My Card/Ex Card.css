@@ -49,11 +49,10 @@ marquee{
 }
 
 .quest h1,
-.quest2 h1
-.quest3 h1
-.quest4 h1
+.quest2 h1,
+.quest3 h1,
+.quest4 h1,
 .quest5 h1{
-    width: 300px;
     text-align: center;
 }
 

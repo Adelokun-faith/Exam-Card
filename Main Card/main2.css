@@ -1,0 +1,37 @@
+marquee h1{
+    width: 100px;
+}
+
+.login{
+    background-color: silver;
+    color: blueviolet;
+    box-shadow: 0px 8px 16px burlywood;
+    width: 500px;
+    position: absolute;
+    left: 300px;
+    height: 350px;
+}
+
+.gin label{
+    color: black;
+    position: absolute;
+    left: 50px;
+}
+
+.gin input{
+    position: absolute;
+    left: 70px;
+    width: 400px;
+    height: 30px;
+    left: 30px;
+}
+
+button{
+    background-color: steelblue;
+    position: absolute;
+    left: 200px;
+    width: 100px;
+    height: 30px;
+    border: 2px steelblue;
+    bottom: 20px;
+}

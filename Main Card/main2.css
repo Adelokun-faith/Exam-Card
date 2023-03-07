@@ -8,8 +8,8 @@ marquee h1{
     width: 300px;
     position: absolute;
     left: 60px;
-    height: 350px;
-    bottom: 80px;
+    height: 550px;
+    bottom: 25px;
 }
 
 .login{
@@ -22,25 +22,31 @@ marquee h1{
     left: 50px;
 }
 
-.gin input{
-    position: absolute;
-    left: 70px;
-    width: 200px;
-    height: 30px;
-    left: 30px;
+input[type=text] {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    color: #333;
 }
 
 .gin a{
-    background-color: steelblue;
+    background-color: black;
+    color: white;
     position: absolute;
     left: 100px;
     width: 100px;
     height: 30px;
     border: 2px steelblue;
-    bottom: 20px;
+    bottom: 30px;
     list-style-type: none;
     text-decoration: none;
     padding-top: 5px;
+}
+
+.gin p{
+    color: white;
+    margin-top: 0px;
 }
 
 a:hover{
@@ -49,14 +55,13 @@ a:hover{
 
 .register{
     width: 300px;
-    height: 350px;
+    height: 550px;
     position: absolute;
     background-color: gray;
     color: black;
     right: 60px;
-    bottom: 80px;
+    bottom: 25px;
 }
-
 .register{
     text-align: center;
 }
@@ -69,10 +74,10 @@ a:hover{
 .general{
     background-color: whitesmoke;
     box-shadow: 0px 8px 16px burlywood;
-    height: 500px;
+    height: 600px;
     width: 800px;
     position: absolute;
     left: 300px;
-    top: 80px;
+    top: 25px;
     border-radius: 20px;
 }
